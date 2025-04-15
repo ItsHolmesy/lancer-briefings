@@ -95,62 +95,73 @@ export default {
       "missions": [
         {
           "slug": "001",
-          "name": "Bug-Hunt",
+          "name": "Beach-Head",
+          "status": "partial-success"
+        },
+        {
+        "slug": "002",
+          "name": "Strike and Seize",
+          "status": "failure"
+        },
+        {
+        "slug": "003",
+          "name": "Revelations",
           "status": "start"
         },
+
       ],
       "pilots": [
         {
-          "callsign": "Jinzo",
-          "alias": "Shayan Arsenal",
-          "code": "462370be-bd0f-41c2-b667-cc75f3a59a96///NDL-C-DEEP-STATION//377308ad-ba23-410b-ae37-68a1fb5f8db4",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Type - Worst Beat"
+          "callsign": "Archimedes",
+          "alias": "Jakar O'Rielly",
+          "code": "f4489495-4818-4533-9662-7656a6b987f7///EOS-A-PEREGRINE-STATION",
+          "corpro": "HA",
+          "frame": "Iskandar",
+          "mech": "Da Vinci"
         },
         {
-          "callsign": "Kal",
-          "alias": "Vier Flau",
-          "code": "7cd700cc-c990-48ed-892f-e5468de724c4///NDL-C-DEEP-STATION//a98c3e28-ad4a-4f89-bcd9-501464e960da",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Necrophile"
+          "callsign": "Barrelman",
+          "alias": "Aleksandra",
+          "code": "08aa7969-336e-41f7-887b-f6de15fb2611///EOS-A-PEREGRINE-STATION",
+          "corpro": "SSC",
+          "frame": "Oleander",
+          "mech": "SPYGLASS Mk. II"
         },
         {
-          "callsign": "Starboard",
-          "alias": "Maria",
-          "code": "4be26ce9-923b-4069-b6c9-76437d4be455///NDL-C-DEEP-STATION//056940c6-8d55-4190-8e85-57caa043cb1a",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Scarlet Judicator"
+          "callsign": "Nine",
+          "alias": "John Smith",
+          "code": "13f8ca43-0278-49f6-a436-0fadf99344a2///EOS-A-PEREGRINE-STATION",
+          "corpro": "IPS-N",
+          "frame": "Caliban",
+          "mech": "Stray"
         },
         {
-          "callsign": "Badlands",
-          "alias": "Marlene Gatsby",
-          "code": "98ca9616-044e-4f87-b89b-aae4eb3387ec///NDL-C-DEEP-STATION//6f572259-6946-41bf-931a-e0543709e892",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Mayfly"
+          "callsign": "Letariat",
+          "alias": '???',
+          "code": "be49aa5b-f040-424e-b1ac-ebfeffed3200///EOS-A-PEREGRINE-STATION",
+          "corpro": "HORUS",
+          "frame": "Calendula",
+          "mech": "Liberty Prime"
         },
         {
-          "callsign": "Compadre",
-          "alias": 'Clint "CC" Cruz',
-          "code": "d1fdf62e-d81e-4e10-97c8-df3bc4860117///NDL-C-DEEP-STATION//5a4254aa-9fa2-42ca-a077-8f5bfd1e1ad3",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Rio Bravo"
+          "callsign": "Isador",
+          "alias": '???',
+          "code": "442a4c73-0ede-45c2-8dc6-411bc12751b3///EOS-A-PEREGRINE-STATION",
+          "corpro": "SSC",
+          "frame": "Metalmark",
+          "mech": "MOTHER"
         },
       ],
       "header": {
-        "planet": "Hercynia",
-        "year": "5014u",
-        "system": "Ardennes-3",
-        "gate": "Atlas-Quanokrim",
-        "ring": "Atlas-Line",
-        "headerTitle": "Mirrorsmoke",
-        "headerSubtitle": "Mercenary Company",
-        "subheaderTitle": "Crisis Response",
-        "subheaderSubtitle": "Delta-Echo-Echo-Zulu",
+        "planet": "Earth",
+        "year": "2103",
+        "system": "Sol",
+        "gate": "Mars-Interchange",
+        "ring": "Inner Ring",
+        "headerTitle": "Scourge Brigade",
+        "headerSubtitle": "LLC",
+        "subheaderTitle": "Independent Contractor",
+        "subheaderSubtitle": "HELIOS"
       },
       "options":{
         "eventsMarkdownPerMission": true
