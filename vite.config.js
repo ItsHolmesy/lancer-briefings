@@ -3,9 +3,8 @@ import vue from '@vitejs/plugin-vue'
 import path from 'path'
 import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url);
-
-const __dirname = path.dirname(__filename);
+// Resolve __dirname in ES module scope
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // https://vitejs.dev/config/
 export default defineConfig({
